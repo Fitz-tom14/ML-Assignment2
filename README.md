@@ -17,26 +17,7 @@ R² Score — domain-specific regression metric
 
 All tuning was performed using GridSearchCV, and results were saved to CSV files and visualised with matplotlib.
 
-Project Structure
-ML-Assignment2/
-│
-data/
-│   steel.csv                   # Provided dataset
-│
-main.py                         # Runs models + tuning + CV evaluation
-│
-dt_graphs.py                    # Generates Decision Tree heatmap + line plot
-svr_graphs.py                   # Generates SVR heatmap + line plot
-│
-dt_grid_results.csv             # GridSearch results (Decision Tree)
-svr_grid_results.csv            # GridSearch results (SVR)
-│
-dt_heatmap.png                  # Saved plot (Decision Tree)
-dt_lineplot.png                 # Saved plot (Decision Tree)
-svr_heatmap.png                 # Saved plot (SVR)
-svr_lineplot.png                # Saved plot (SVR)
-│
-README.md                       # Project documentation
+
 
 How to Run the Project
 1️. Install Dependencies
